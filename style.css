@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ced4da;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+    /* Header */
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #4ea8de;
+    padding: 10px;
+}
+.Navbar h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold;
+}
+.Navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Navbar div button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #6930c3;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main */
+
+
+/* Home */
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.intro {
+    max-width: 400px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+.highlight {
+    color: orange;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: -10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.avatar img {
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+/* About */
+
+
+.About {
+    padding: 50px;
+}
+
+
+.About h1 {
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+.About p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Projects */
+.Project-Page h1 {
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+.Projects-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Projects {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.Projects img {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.Projects h2 {
+    font-size: 1em;
+    margin: 10px 0;
+}
